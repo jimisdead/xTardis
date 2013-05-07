@@ -1,0 +1,370 @@
+[
+    {
+        "fields": {
+            "name": null,
+            "namespace": "http://www.unisa.edu.au/nanotof",
+            "subtype": null,
+            "type": 2
+        },
+        "model": "tardis_portal.schema",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "name": null,
+            "namespace": "http://www.unisa.edu.au/mastersizer",
+            "subtype": null,
+            "type": 2
+        },
+        "model": "tardis_portal.schema",
+        "pk": 2
+    },
+
+    {
+        "fields": {
+            "choices": "",
+            "comparison_type": 1,
+            "data_type": 6,
+            "full_name": "Date Acquired",
+            "is_searchable": false,
+            "name": "dateaquired",
+            "schema": 1,
+            "units": ""
+        },
+        "model": "tardis_portal.parametername",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "choices": "",
+            "comparison_type": 1,
+            "data_type": 1,
+            "full_name": "Aquisition Time",
+            "is_searchable": false,
+            "name": "acquisitiontime",
+            "schema": 1,
+            "units": "seconds"
+        },
+        "model": "tardis_portal.parametername",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "choices": "",
+            "comparison_type": 1,
+            "data_type": 1,
+            "full_name": "Integral",
+            "is_searchable": false,
+            "name": "integral",
+            "schema": 1,
+            "units": ""
+        },
+        "model": "tardis_portal.parametername",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "choices": "",
+            "comparison_type": 1,
+            "data_type": 2,
+            "full_name": "Dose Rate",
+            "is_searchable": false,
+            "name": "doserate",
+            "schema": 1,
+            "units": "ion/sec-cm²"
+        },
+        "model": "tardis_portal.parametername",
+        "pk": 4
+    },
+    {
+        "fields": {
+            "choices": "",
+            "comparison_type": 1,
+            "data_type": 2,
+            "full_name": "Primary Gun",
+            "is_searchable": false,
+            "name": "primarygun",
+            "schema": 1,
+            "units": ""
+        },
+        "model": "tardis_portal.parametername",
+        "pk": 5
+    },
+    {
+        "fields": {
+            "choices": "",
+            "comparison_type": 1,
+            "data_type": 2,
+            "full_name": "Time Recorder",
+            "is_searchable": false,
+            "name": "timerecorder",
+            "schema": 1,
+            "units": ""
+        },
+        "model": "tardis_portal.parametername",
+        "pk": 6
+    },
+    {
+        "fields": {
+            "choices": "",
+            "comparison_type": 1,
+            "data_type": 1,
+            "full_name": "Time/Channel",
+            "is_searchable": false,
+            "name": "timechannel",
+            "schema": 1,
+            "units": "ps"
+        },
+        "model": "tardis_portal.parametername",
+        "pk": 7
+    },
+    {
+        "fields": {
+            "choices": "",
+            "comparison_type": 1,
+            "data_type": 2,
+            "full_name": "Sample Dose",
+            "is_searchable": false,
+            "name": "sampledose",
+            "schema": 1,
+            "units": "ion/cm²"
+        },
+        "model": "tardis_portal.parametername",
+        "pk": 8
+    },
+    {
+        "fields": {
+            "choices": "",
+            "comparison_type": 1,
+            "data_type": 2,
+            "full_name": "Ion Polarity",
+            "is_searchable": false,
+            "name": "ionpolarity",
+            "schema": 1,
+            "units": "ions"
+        },
+        "model": "tardis_portal.parametername",
+        "pk": 9
+    },
+    {
+        "fields": {
+            "choices": "",
+            "comparison_type": 1,
+            "data_type": 2,
+            "full_name": "Prim. Particle",
+            "is_searchable": false,
+            "name": "primparticle",
+            "schema": 1,
+            "units": ""
+        },
+        "model": "tardis_portal.parametername",
+        "pk": 10
+    },
+    {
+        "fields": {
+            "choices": "",
+            "comparison_type": 1,
+            "data_type": 2,
+            "full_name": "Raster Type",
+            "is_searchable": false,
+            "name": "rastertype",
+            "schema": 1,
+            "units": ""
+        },
+        "model": "tardis_portal.parametername",
+        "pk": 11
+    },
+    {
+        "fields": {
+            "choices": "",
+            "comparison_type": 1,
+            "data_type": 2,
+            "full_name": "Raster Size",
+            "is_searchable": false,
+            "name": "rastersize",
+            "schema": 1,
+            "units": "µm²"
+        },
+        "model": "tardis_portal.parametername",
+        "pk": 12
+    },
+    {
+        "fields": {
+            "choices": "",
+            "comparison_type": 1,
+            "data_type": 2,
+            "full_name": "Raster Area",
+            "is_searchable": false,
+            "name": "rasterarea",
+            "schema": 1,
+            "units": "cm²"
+        },
+        "model": "tardis_portal.parametername",
+        "pk": 13
+    },
+    {
+        "fields": {
+            "choices": "",
+            "comparison_type": 1,
+            "data_type": 2,
+            "full_name": "Comment",
+            "is_searchable": false,
+            "name": "comment",
+            "schema": 1,
+            "units": ""
+        },
+        "model": "tardis_portal.parametername",
+        "pk": 14
+    },
+
+    {
+        "fields": {
+            "choices": "",
+            "comparison_type": 1,
+            "data_type": 6,
+            "full_name": "Date Measured",
+            "is_searchable": false,
+            "name": "datemeasured",
+            "schema": 2,
+            "units": ""
+        },
+        "model": "tardis_portal.parametername",
+        "pk": 15
+    },
+
+    {
+        "fields": {
+            "choices": "",
+            "comparison_type": 1,
+            "data_type": 6,
+            "full_name": "Date Analysed",
+            "is_searchable": false,
+            "name": "dateanalysed",
+            "schema": 2,
+            "units": ""
+        },
+        "model": "tardis_portal.parametername",
+        "pk": 16
+    },
+
+    {
+        "fields": {
+            "choices": "",
+            "comparison_type": 1,
+            "data_type": 2,
+            "full_name": "Sample Source & Type",
+            "is_searchable": false,
+            "name": "samplesourcetype",
+            "schema": 2,
+            "units": ""
+        },
+        "model": "tardis_portal.parametername",
+        "pk": 17
+    },
+
+    {
+        "fields": {
+            "choices": "",
+            "comparison_type": 1,
+            "data_type": 2,
+            "full_name": "Particle Name",
+            "is_searchable": false,
+            "name": "particlename",
+            "schema": 2,
+            "units": ""
+        },
+        "model": "tardis_portal.parametername",
+        "pk": 18
+    },
+
+    {
+        "fields": {
+            "choices": "",
+            "comparison_type": 1,
+            "data_type": 2,
+            "full_name": "Particle RI",
+            "is_searchable": false,
+            "name": "particleri",
+            "schema": 2,
+            "units": ""
+        },
+        "model": "tardis_portal.parametername",
+        "pk": 19
+    },
+
+    {
+        "fields": {
+            "choices": "",
+            "comparison_type": 1,
+            "data_type": 2,
+            "full_name": "Dispersant Name",
+            "is_searchable": false,
+            "name": "dispersantname",
+            "schema": 2,
+            "units": ""
+        },
+        "model": "tardis_portal.parametername",
+        "pk": 20
+    },
+
+    {
+        "fields": {
+            "choices": "",
+            "comparison_type": 1,
+            "data_type": 2,
+            "full_name": "Dispersant RI",
+            "is_searchable": false,
+            "name": "dispersantri",
+            "schema": 2,
+            "units": ""
+        },
+        "model": "tardis_portal.parametername",
+        "pk": 21
+    },
+
+    {
+        "fields": {
+            "choices": "",
+            "comparison_type": 1,
+            "data_type": 2,
+            "full_name": "Absorption",
+            "is_searchable": false,
+            "name": "absorbtion",
+            "schema": 2,
+            "units": ""
+        },
+        "model": "tardis_portal.parametername",
+        "pk": 22
+    },
+
+
+    {
+        "fields": {
+            "choices": "",
+            "comparison_type": 1,
+            "data_type": 2,
+            "full_name": "Obscuration",
+            "is_searchable": false,
+            "name": "obscuration",
+            "schema": 2,
+            "units": "%"
+        },
+        "model": "tardis_portal.parametername",
+        "pk": 23
+    },
+
+    {
+        "fields": {
+            "choices": "",
+            "comparison_type": 1,
+            "data_type": 2,
+            "full_name": "Comment",
+            "is_searchable": false,
+            "name": "comment",
+            "schema": 2,
+            "units": ""
+        },
+        "model": "tardis_portal.parametername",
+        "pk": 24
+    }
+]
